@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiztorical: Your Daily Dose of Knowledge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Quiztorical</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#daily-quiz">Daily Quiz</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to Quiztorical</h1>
+            <p>Your daily adventure through time and knowledge!</p>
+            <a href="#daily-quiz" class="cta-button">Start Quiz</a>
+        </section>
+
+        <section id="daily-quiz">
+            <h2>Today's Quiz</h2>
+            <div class="quiz-container">
+                <div class="quiz-item">
+                    <h3>Question 1: General Knowledge</h3>
+                    <p>What is the largest organ in the human body?</p>
+                    <ul>
+                        <li>A) Brain</li>
+                        <li>B) Liver</li>
+                        <li>C) Skin</li>
+                        <li>D) Heart</li>
+                    </ul>
+                    <div class="answer">Answer: C) Skin</div>
+                </div>
+                <div class="quiz-item">
+                    <h3>Question 2: History</h3>
+                    <p>In which year did Christopher Columbus first reach the Americas?</p>
+                    <ul>
+                        <li>A) 1492</li>
+                        <li>B) 1776</li>
+                        <li>C) 1066</li>
+                        <li>D) 1215</li>
+                    </ul>
+                    <div class="answer">Answer: A) 1492</div>
+                </div>
+                <div class="quiz-item">
+                    <h3>Question 3: Science</h3>
+                    <p>What is the hardest natural substance on Earth?</p>
+                    <ul>
+                        <li>A) Gold</li>
+                        <li>B) Iron</li>
+                        <li>C) Diamond</li>
+                        <li>D) Titanium</li>
+                    </ul>
+                    <div class="answer">Answer: C) Diamond</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-content">
+                <h2><span style="color: aqua; text-decoration: underline; font-family:cursive;">About</span> <span style="color:cornflowerblue; font-weight:bold; text-decoration: line-through;">Quiztorical</h2></span>
+                <p style="font-family: monospace; font-size: large; font-weight: 800;">Quiztorical is your daily source of intriguing questions spanning history, science, and general knowledge. Challenge yourself, learn something new every day, and have fun while expanding your horizons!</p>
+            </div>
+            <div class="about-background"></div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Quiztorical. All rights reserved. Expand your knowledge daily!</p>
+    </footer>
+</body>
+</html>
